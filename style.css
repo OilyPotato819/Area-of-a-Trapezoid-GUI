@@ -1,16 +1,35 @@
+html {
+    background-color: blue;
+}
+
+body {
+    background-color: white;
+    border-radius: 25px;
+    padding: 30px 70px;
+    margin: 20px auto;
+    width: 800px;
+}
+
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 img {
-    border: solid 1px;
+    border: solid 1px grey;
 }
 
 span {
     color: blue;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 #Click-here {
-    
+    font-style: italic;
+}
+
+button {
+    color: white;
+    background: maroon;
+    cursor: pointer;
 }
