@@ -18,13 +18,19 @@
     </p>
 
     <h1>Input</h1>
-    <p>Enter length of side a: <input type="text"></p>
-    <p>Enter length of side b: <input type="text"></p>
-    <p>Enter height of trapezoid: <input type="text"></p>
-    <button>Calculate</button>
+    <p>Enter length of side a: <input id="aSideIn" type="number"></p>
+    <p>Enter length of side b: <input id="bSideIn" type="number"></p>
+    <p>Enter height of trapezoid: <input id="trapHeightIn" type="number"></p>
+    <button id="calcBtn">Calculate</button>
+    <button id="clearBtn">Clear</button>
 
-    <h1>Output</h1>
-    <p>The area of the trapezoid is: -----</p>
+    <div hidden id="resultDiv">
+        <hr>
+        <h1>Output</h1>
+        <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>

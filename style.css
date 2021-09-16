@@ -33,3 +33,11 @@ button {
     background: maroon;
     cursor: pointer;
 }
+
+hr {
+    margin-top: 30px;
+}
+
+#result {
+    font-size: 25px;
+}
